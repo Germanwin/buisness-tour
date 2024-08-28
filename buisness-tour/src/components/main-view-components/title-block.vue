@@ -5,7 +5,6 @@ import mainTitle from './title-block-components/main-title.vue';
 
 <template>
     <div class="title-block-container">
-        <!-- <bgMainPic /> -->
         <mainTitle />
     </div>
     

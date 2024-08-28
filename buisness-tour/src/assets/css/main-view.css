@@ -1,8 +1,13 @@
+
 .main-container {
     width: 100%;
 }
 
 .title-block-container {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
     width: 100%;
     height: 733px;
     background-image: url('@/assets/main-pic.jpg');
@@ -18,8 +23,73 @@
 .main-title-container {
     position: absolute;
     z-index: 5;
+
+    border: 5px white solid;
+    padding: 40px;
+    padding-bottom: 70px;
 }
 
 .main-title-title {
     font-family: 'Black Han Sans', sans-serif;
+    font-weight: 900;
+    font-size: 96px;
+    color: white;
+    line-height: 80px;
+}
+
+.main-title-subtitle {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.previous-tours-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    background-color: #d9d9d9;
+}
+
+.previous-tours-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.previous-tour-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.previous-tour-card img {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.previous-tour-card-date {
+    font-size: 14px;
+    opacity: 0.3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.previous-tour-card-title {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.previous-tours-title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    margin-bottom: 30px;
+    color: #616157;
 }

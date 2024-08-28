@@ -1,5 +1,6 @@
 <template>
     <div class="main-title-container">
-        <h1 class="main-title-title">Mountain</h1>
+        <p class="main-title-title">Mountain</p>
+        <p class="main-title-subtitle">Go where you feel most alive</p>
     </div>
 </template>
