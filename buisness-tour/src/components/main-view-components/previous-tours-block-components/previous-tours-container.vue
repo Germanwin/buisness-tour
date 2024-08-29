@@ -3,6 +3,7 @@ import previousTourCard from './previous-tour-card.vue';
 import img1 from '../../../assets/previous-tours-pics/previous-tour-pic1.png'
 import img2 from '../../../assets/previous-tours-pics/previous-tour-pic2.jpg'
 import img3 from '../../../assets/previous-tours-pics/previous-tour-pic3.jpg'
+import jh from '../../icons/facebook.svg'
 </script>
 
 <template>

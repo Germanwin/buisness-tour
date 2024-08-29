@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import previousToursContainer from './previous-tours-components/previous-tours-container.vue';
-import previousToursTitle from './previous-tours-components/previous-tours-title.vue';
+import previousToursContainer from './previous-tours-block-components/previous-tours-container.vue';
+import previousToursTitle from './previous-tours-block-components/previous-tours-title.vue';
 </script>
 
 <template>
