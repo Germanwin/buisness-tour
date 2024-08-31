@@ -1,0 +1,51 @@
+
+/* previous-tours-block styling */
+
+.previous-tours-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    background-color: #d9d9d9;
+}
+
+.previous-tours-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.previous-tour-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.previous-tour-card img {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.previous-tour-card-date {
+    font-size: 14px;
+    opacity: 0.3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.previous-tour-card-title {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.previous-tours-title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    margin-bottom: 30px;
+    color: #616157;
+}

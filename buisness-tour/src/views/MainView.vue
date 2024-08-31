@@ -1,7 +1,9 @@
-<script setup lang="ts">
+<script setup>
 import titleBlock from '@/components/main-view-components/title-block.vue';
 import previousToursBlock from '@/components/main-view-components/previous-tours-block.vue';
 import photoGalleryBlock from '@/components/main-view-components/photo-gallery-block.vue';
+import photoToursBlock from '@/components/main-view-components/photo-tours-block.vue';
+import TravelToEastBlock from '@/components/main-view-components/travel-to-east-block.vue';
 </script>
 
 <template>
@@ -9,5 +11,7 @@ import photoGalleryBlock from '@/components/main-view-components/photo-gallery-b
         <titleBlock />
         <previousToursBlock />
         <photoGalleryBlock />
+        <photoToursBlock />
+        <TravelToEastBlock />
     </div>
 </template>
