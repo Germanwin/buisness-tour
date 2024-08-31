@@ -4,6 +4,7 @@ import previousToursBlock from '@/components/main-view-components/previous-tours
 import photoGalleryBlock from '@/components/main-view-components/photo-gallery-block.vue';
 import photoToursBlock from '@/components/main-view-components/photo-tours-block.vue';
 import TravelToEastBlock from '@/components/main-view-components/travel-to-east-block.vue';
+import MasterPhotoBlock from '@/components/main-view-components/master-photo-block.vue';
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import TravelToEastBlock from '@/components/main-view-components/travel-to-east-
         <photoGalleryBlock />
         <photoToursBlock />
         <TravelToEastBlock />
+        <MasterPhotoBlock />
     </div>
 </template>
