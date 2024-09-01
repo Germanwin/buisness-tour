@@ -33,17 +33,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 16px;
+    margin-bottom: 40px;
 }
 
-.pt-lc-icons {
-    margin-top: 30px;
+.left-column-text-block .pg-about-us-links {
     display: flex;
-    flex-direction: row;
-    gap: 4px;
+    gap: 16px;
 }
 
-.pt-lc-icon {
+.left-column-text-block .pg-about-us-links svg {
     width: 30px;
+    height: 30px;
 }
 
 .pt-rc-title {

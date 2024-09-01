@@ -90,24 +90,19 @@
     color: #a68053;
 }
 
-.pg-about-us-links {
+.pg-about-us-text-block .pg-about-us-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-    padding: 13px 0;
+    gap: 13px;
+    width: auto;
+    padding: 13px 20px;
     border-top: #a68053 2px solid;
     border-bottom: #a68053 2px solid;
 }
 
-.pg-about-us-link {
-    text-align: center;
-    padding: 0;
-}
-
-.pg-about-us-link img {
-    width: 34px;
-    height: 32px;
+.pg-about-us-text-block .pg-about-us-links svg {
+    width: 30px;
+    height: 30px;
 }
 
 .pg-about-us-text-block-subtitle {

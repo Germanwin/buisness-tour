@@ -1,18 +1,19 @@
 <script setup>
-import icon1 from '../../icons/facebook.svg'
-import icon2 from '../../icons/instagram.svg'
-import icon3 from '../../icons/twitter.svg'
-import icon4 from '../../icons/youtube.svg'
+import Instagram from '@/components/icons/instagram.vue';
+import Facebook from '../../icons/facebook.vue';
+
 import pgAboutUsTextBlockSmLink from './pg-about-us-text-block-sm-link.vue';
+import Twitter from '@/components/icons/twitter.vue';
+import Youtube from '@/components/icons/youtube.vue';
 
 </script>
 
 <template>
     <div class="pg-about-us-links">
-        <pgAboutUsTextBlockSmLink :imgPath="icon1" path="#"/>
-        <pgAboutUsTextBlockSmLink :imgPath="icon2" path="#"/>
-        <pgAboutUsTextBlockSmLink :imgPath="icon3" path="#"/>
-        <pgAboutUsTextBlockSmLink :imgPath="icon4" path="#"/>
+        <a href="#"><Facebook /></a>
+        <a href="#"><Instagram /></a>
+        <a href="#"><Twitter /></a>
+        <a href="#"><Youtube /></a>
     </div>
 
 </template>

@@ -4,6 +4,7 @@
 @import './photo-tours-block.css';
 @import './travel-to-east-block.css';
 @import './master-photo-block.css';
+@import './about-us-block.css';
 
 .main-container {
     width: 100%;
