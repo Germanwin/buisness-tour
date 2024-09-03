@@ -1,5 +1,4 @@
 <script lang="ts">
-import imgpath from '../../../assets/previous-tours-pics/previous-tour-pic1.png'
 
 export default {
   props: {
