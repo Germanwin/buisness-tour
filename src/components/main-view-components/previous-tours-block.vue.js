@@ -21,6 +21,7 @@ function __VLS_template() {
     const __VLS_1 = __VLS_0({}, ...__VLS_functionalComponentArgsRest(__VLS_0));
     ({}({}));
     const __VLS_4 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(previousToursTitle, __VLS_1));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("prev-tours-cards-container") }, });
     // @ts-ignore
     [previousToursContainer,];
     // @ts-ignore
@@ -30,6 +31,7 @@ function __VLS_template() {
     const __VLS_9 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(previousToursContainer, __VLS_6));
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {
         __VLS_styleScopedClasses['previous-tours-block'];
+        __VLS_styleScopedClasses['prev-tours-cards-container'];
     }
     var __VLS_slots;
     return __VLS_slots;
