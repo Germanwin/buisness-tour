@@ -7,6 +7,7 @@
     background-color: #332f29;
     position: relative;
     height: 190dvh;
+    max-width: 100%;
 }
 
 .main-photo-gallery-title-container {

@@ -6,7 +6,10 @@ import previousToursTitle from './previous-tours-block-components/previous-tours
 <template>
     <div class="previous-tours-block">
         <previousToursTitle />
-        <previousToursContainer />
+        <div class="prev-tours-cards-container">
+            <previousToursContainer />
+        </div>
+
     </div>
-    
+
 </template>
