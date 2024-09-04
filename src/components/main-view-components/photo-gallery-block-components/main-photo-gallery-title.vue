@@ -1,3 +1,4 @@
+<!-- eslint-disable no-irregular-whitespace -->
 <template>
     <div class="main-photo-gallery-title-container">
         <div class="main-photo-gallery-title">

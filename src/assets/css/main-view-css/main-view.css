@@ -7,6 +7,6 @@
 @import './about-us-block.css';
 
 .main-container {
-    width: 100%;
+    min-width: 100%;
     position: relative;
 }
