@@ -31,7 +31,7 @@ export default {
     methods: {
         async sendEmail() {
             try {
-                const response = await axios.post('http://localhost:1316/send-email', {
+                const response = await axios.post('http://62.113.98.240:1316/send-email', {
                     from: this.email.from,
                     to: 'grishingerman7766005@gmail.com',
                     subject: 'Заявка в тур!',
