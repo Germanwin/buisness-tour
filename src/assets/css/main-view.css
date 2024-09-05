@@ -1,0 +1,12 @@
+@import './main-view-css/title-block.css';
+@import './main-view-css/previous-tours-block.css';
+@import './main-view-css/photo-gallery-block.css';
+@import './main-view-css/photo-tours-block.css';
+@import './main-view-css/travel-to-east-block.css';
+@import './main-view-css/master-photo-block.css';
+@import './main-view-css/about-us-block.css';
+@import './main-view-css/tour-request-block.css';
+
+.main-container {
+    min-width: 100%;
+}

@@ -4,7 +4,7 @@ import pgAboutUsBlock from './pg-about-us-block.vue';
 
 <template>
     <div class="pg-right-column-container">
-        <img src="../../../assets/photo-gallery-pics/mountains-pg-pic.jpg" class="pg-second-pic" alt="">
+        <img src="@/assets/main-view-pics/photo-gallery-pics/mountains-pg-pic.jpg" class="pg-second-pic" alt="">
         <pgAboutUsBlock />
     </div>
     

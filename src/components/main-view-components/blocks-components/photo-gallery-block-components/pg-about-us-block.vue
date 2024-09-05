@@ -4,7 +4,7 @@ import pgAboutUsTextBlock from './pg-about-us-text-block.vue';
 
 <template>
     <div class="pg-about-us-block">
-        <img src="../../../assets/photo-gallery-pics/wheat-pg-pic.jpg" alt="">
+        <img src="@/assets/main-view-pics/photo-gallery-pics/wheat-pg-pic.jpg" alt="">
         <pgAboutUsTextBlock />
     </div>
 </template>

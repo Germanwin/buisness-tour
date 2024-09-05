@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import previousTourCard from './previous-tour-card.vue';
-import img1 from '../../../assets/previous-tours-pics/previous-tour-pic1.png'
-import img2 from '../../../assets/previous-tours-pics/previous-tour-pic2.jpg'
-import img3 from '../../../assets/previous-tours-pics/previous-tour-pic3.jpg'
+import img1 from '@/assets/main-view-pics/previous-tours-pics/previous-tour-pic1.png'
+import img2 from '@/assets/main-view-pics/previous-tours-pics/previous-tour-pic2.jpg'
+import img3 from '@/assets/main-view-pics/previous-tours-pics/previous-tour-pic3.jpg'
 </script>
 
 <template>

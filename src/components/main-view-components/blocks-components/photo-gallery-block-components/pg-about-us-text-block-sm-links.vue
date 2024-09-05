@@ -1,8 +1,6 @@
 <script setup>
 import Instagram from '@/components/icons/instagram.vue';
-import Facebook from '../../icons/facebook.vue';
-
-import pgAboutUsTextBlockSmLink from './pg-about-us-text-block-sm-link.vue';
+import Facebook from '@/components/icons/facebook.vue';
 import Twitter from '@/components/icons/twitter.vue';
 import Youtube from '@/components/icons/youtube.vue';
 

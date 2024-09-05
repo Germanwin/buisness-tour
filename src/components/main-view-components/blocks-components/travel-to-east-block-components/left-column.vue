@@ -4,7 +4,7 @@ import LeftColumnTextBlock from './left-column-text-block.vue';
 
 <template>
     <div class="column travel-to-east-lc">
-        <img src="../../../assets/travel-to-east-pics/left-column-pic.jpeg" alt="">
+        <img src="@/assets/main-view-pics/travel-to-east-pics/left-column-pic.jpeg" alt="">
         <LeftColumnTextBlock />
     </div>
 </template>

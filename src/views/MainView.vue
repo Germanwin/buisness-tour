@@ -1,20 +1,20 @@
 <script setup>
-import titleBlock from '@/components/main-view-components/title-block.vue';
-import previousToursBlock from '@/components/main-view-components/previous-tours-block.vue';
-import photoGalleryBlock from '@/components/main-view-components/photo-gallery-block.vue';
-import photoToursBlock from '@/components/main-view-components/photo-tours-block.vue';
-import TravelToEastBlock from '@/components/main-view-components/travel-to-east-block.vue';
-import MasterPhotoBlock from '@/components/main-view-components/master-photo-block.vue';
-import AboutUsBlock from '@/components/main-view-components/about-us-block.vue';
-import TourRequestBlock from '@/components/main-view-components/tour-request-block.vue';
+import MasterPhotoBlock from '@/components/main-view-components/blocks/master-photo-block.vue';
+import AboutUsBlock from '@/components/main-view-components/blocks/about-us-block.vue';
+import TourRequestBlock from '@/components/main-view-components/blocks/tour-request-block.vue';
+import TitleBlock from '@/components/main-view-components/blocks/title-block.vue';
+import PreviousToursBlock from '@/components/main-view-components/blocks/previous-tours-block.vue';
+import PhotoGalleryBlock from '@/components/main-view-components/blocks/photo-gallery-block.vue';
+import PhotoToursBlock from '@/components/main-view-components/blocks/photo-tours-block.vue';
+import TravelToEastBlock from '@/components/main-view-components/blocks/travel-to-east-block.vue';
 </script>
 
 <template>
     <div class="main-container">
-        <titleBlock />
-        <previousToursBlock />
-        <photoGalleryBlock />
-        <photoToursBlock />
+        <TitleBlock />
+        <PreviousToursBlock />
+        <PhotoGalleryBlock />
+        <PhotoToursBlock />
         <TravelToEastBlock />
         <MasterPhotoBlock />
         <AboutUsBlock />
