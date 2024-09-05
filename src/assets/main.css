@@ -1,23 +1,13 @@
 @import './base.css';
 @import './css/main-view-css/main-view.css';
 
-body {
-}
-
-#app {
+* {
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
-html {
+#app, html, body {
   width: 100%;
-
-}
-
-body {
-  width: 100%;
-  margin: 0;
 }
 
 @media only screen and (max-width: 730px) {

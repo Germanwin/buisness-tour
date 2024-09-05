@@ -6,6 +6,7 @@ import photoToursBlock from '@/components/main-view-components/photo-tours-block
 import TravelToEastBlock from '@/components/main-view-components/travel-to-east-block.vue';
 import MasterPhotoBlock from '@/components/main-view-components/master-photo-block.vue';
 import AboutUsBlock from '@/components/main-view-components/about-us-block.vue';
+import TourRequestBlock from '@/components/main-view-components/tour-request-block.vue';
 </script>
 
 <template>
@@ -17,5 +18,6 @@ import AboutUsBlock from '@/components/main-view-components/about-us-block.vue';
         <TravelToEastBlock />
         <MasterPhotoBlock />
         <AboutUsBlock />
+        <TourRequestBlock />
     </div>
 </template>

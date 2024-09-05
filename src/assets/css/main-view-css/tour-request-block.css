@@ -1,0 +1,36 @@
+.tour-request-block-container {
+  max-width: 100%;
+  height: auto;
+  gap: 20px;
+  background-color: #dfdfd6;
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tour-request-block-container h1 {
+  text-align: center;
+  color: #a68053;
+  font-size: 45px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 900;
+}
+
+.tour-request-block-container p {
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+
+.tour-request-block-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tour-request-block-container form input,
+.tour-request-block-container form button {
+  outline: none;
+  padding: 10px;
+}
