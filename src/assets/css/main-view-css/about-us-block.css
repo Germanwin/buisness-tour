@@ -47,7 +47,7 @@
   margin-bottom: 20px;
 }
 
-.about-us-block-container .text-block .pg-about-us-links {
+.about-us-block-container .text-block .sm-links {
   height: 40px;
   gap: 29px;
   padding: 0;
@@ -57,7 +57,7 @@
   display: flex;
 }
 
-.about-us-block-container .text-block .pg-about-us-links svg {
+.about-us-block-container .text-block .sm-links svg {
   fill: white;
   width: 20px;
   height: 20px;

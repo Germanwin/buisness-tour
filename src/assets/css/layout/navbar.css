@@ -1,0 +1,83 @@
+.navbar-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  z-index: 10;
+
+  font-family: 'Roboto', sans-serif;
+
+  overflow: hidden;
+}
+
+.navbar-start-block, .navbar-end-block {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-end-block .sm-links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navbar-end-block .sm-links a  svg{
+  height: 40px;
+  width: 40px;
+}
+
+
+
+.navbar-title h1 {
+  font-weight: 900;
+}
+.navbar-title p {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.navbar-option {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  font-weight: 700;
+  height: min-content;
+  transition: all 0.1s ease;
+}
+
+.navbar-option:hover {
+  font-weight: 900;
+  border-bottom: 0;
+}
+
+.navbar-contacts {
+  position: relative;
+}
+
+.navbar-contacts h3, .navbar-contacts p {
+  cursor: pointer;
+} 
+
+.num-tooltip {
+  position: absolute;
+  line-height: 0;
+  top: 0;
+
+  margin-top: -7px;
+}
+
+.email-tooltip {
+  position: absolute;
+  line-height: 0;
+  bottom: 0;
+
+  margin-bottom: -7px;
+}

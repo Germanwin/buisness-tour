@@ -38,12 +38,12 @@
     margin-bottom: 40px;
 }
 
-.left-column-text-block .pg-about-us-links {
+.left-column-text-block .sm-links {
     display: flex;
     gap: 16px;
 }
 
-.left-column-text-block .pg-about-us-links svg {
+.left-column-text-block .sm-links svg {
     width: 30px;
     height: 30px;
 }

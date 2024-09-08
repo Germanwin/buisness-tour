@@ -1,7 +1,7 @@
 <script lang="ts">
 export default {
     props: {
-        imgPath: {
+        title: {
             type: String,
             required: true,
         },
@@ -13,9 +13,8 @@ export default {
 }
 </script>
 
-
 <template>
-    <a class="pg-about-us-link" :href="path">
-        <img :src="imgPath" alt="">
+    <a class="navbar-option" :href="path">
+        {{ title }}
     </a>
 </template>

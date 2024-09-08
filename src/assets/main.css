@@ -1,5 +1,6 @@
 @import './base.css';
 @import './css/main-view.css';
+@import './css/layout.css';
 
 * {
   margin: 0;
