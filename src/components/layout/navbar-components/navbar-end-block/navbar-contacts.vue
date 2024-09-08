@@ -18,25 +18,36 @@ export default {
     methods: {
         copyNumber() {
             const text = "+7 911 777 8375";
-            navigator.clipboard.writeText(text).then(() => {
-                this.showNumberTooltip = true; // Показать подсказку после копирования
-                setTimeout(() => {
-                    this.showNumberTooltip = false; // Скрыть подсказку через 2 секунды
-                }, 2000);
-            }).catch(err => {
-                console.error('Ошибка при копировании текста: ', err);
-            });
+
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(() => {
+                    this.showNumberTooltip = true; // Показать подсказку после копирования
+                    setTimeout(() => {
+                        this.showNumberTooltip = false; // Скрыть подсказку через 2 секунды
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Ошибка при копировании текста: ', err);
+                });
+            } else {
+                console.error('Копирование в буфер обмена не поддерживается вашим браузером.');
+            }
+
         },
         copyEmail() {
             const text = "bebebeBUbuburer@gmail.com";
-            navigator.clipboard.writeText(text).then(() => {
-                this.showEmailTooltip = true; // Показать подсказку после копирования
-                setTimeout(() => {
-                    this.showEmailTooltip = false; // Скрыть подсказку через 2 секунды
-                }, 2000);
-            }).catch(err => {
-                console.error('Ошибка при копировании текста: ', err);
-            });
+
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(() => {
+                    this.showEmailTooltip = true; // Показать подсказку после копирования
+                    setTimeout(() => {
+                        this.showEmailTooltip = false; // Скрыть подсказку через 2 секунды
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Ошибка при копировании текста: ', err);
+                });
+            } else {
+                console.error('Копирование в буфер обмена не поддерживается вашим браузером.');
+            }
         },
         hideTooltip() {
             this.showNumberTooltip = false;
