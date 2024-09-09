@@ -1,11 +1,12 @@
 .about-us-block-container {
-  height: 546px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 550px;
   text-align: center;
 
   min-width: 100%;
-  overflow: hidden;
+
+  z-index: 6;
 }
 
 .about-us-block-container img {
@@ -18,6 +19,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  max-height: 100%;
   justify-content: center;
   padding: 0 50px;
   background-color: #959e8c;
@@ -66,13 +69,8 @@
 @media only screen and (max-width: 700px) {
   .about-us-block-container {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
     grid-template-columns: auto;
-    height: auto;
-  }
-
-  .about-us-block-container img {
-    height: 400px;
   }
 
   .about-us-block-container .text-block {

@@ -81,3 +81,21 @@
 
   margin-bottom: -7px;
 }
+
+@media only screen and (max-width: 920px) {
+  .navbar-contacts {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .navbar-option {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar-end-block {
+    display: none;
+  }
+}
