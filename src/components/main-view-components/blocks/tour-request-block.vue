@@ -39,7 +39,7 @@ export default {
                     subject: 'Заявка в тур!',
                     text: `Это заявка в тур от ${this.email.name}! \n 
                     хотел(а) бы поехать в тур ${this.email.needed_tour} \n
-                    номер телефона чтобы связаться: ${thus.email.number}`,
+                    номер телефона чтобы связаться: ${this.email.number}`,
                 }, {
                     headers: {
                         'Content-Type': 'application/json' // Убедитесь, что отправляете данные в формате JSON
