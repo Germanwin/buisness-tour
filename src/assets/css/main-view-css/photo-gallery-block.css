@@ -1,20 +1,29 @@
 /* photo-gallery-block styling */
 
+.photo-gallery-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #332f29;
+    height: 1100px;
+}
+
 .photo-gallery-block-container {
     display: flex;
     flex-direction: column;
-    padding: 6%;
-    background-color: #332f29;
+    padding: 60px;
+    
     position: relative;
-    height: 190dvh;
-    max-width: 100%;
+    height: 100%;
+    max-width: 1300px;
 }
 
 .main-photo-gallery-title-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40%;
+    height: 400px;
     order: 0;
 }
 
@@ -40,7 +49,7 @@
     color: #a2a6a1;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 900;
-    font-size: 3vw;
+    font-size: 30px;
 }
 
 .main-pg-title-subtitle {
@@ -53,25 +62,23 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-top: 35vh;
+    margin-top: 200px;
     order: 2;
     right: 14%;
     width: 42%;
-    height: 70%;
+    min-width: 450px;
 }
 
 .pg-right-column-container img {
     object-fit: cover;
     width: 90%;
-    height: 50%;
 }
 
 .pg-about-us-block {
-    height: 50%;
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding-top: 12vh;
+    padding-top: 50px;
 }
 
 .pg-about-us-block img {
@@ -124,8 +131,8 @@
 }
 
 .photo-gallery-block-container .third-pic {
-    width: 28dvw;
-    height: 28vw;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
     margin-left: 8%;
     margin-top: 5%;
@@ -133,40 +140,47 @@
     order: 3;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
+    .photo-gallery-block {
+        height: auto;
+    }
+    .photo-gallery-block-container {
+        height: auto;
+        align-items: center;
+    }
+
     .pg-right-column-container {
         position: unset;
         margin-top: 40px;
-        width: 70%;
+        min-width: 0;
+        width: 100%;
     }
 
     .pg-second-pic {
         min-width: 100%;
     }
 
-    .photo-gallery-block-container {
-        height: auto;
-        align-items: center;
-    }
+    
 
     .main-photo-gallery-title img {
         order: 1;
         width: 100%;
-        height: 60%;
-    }
-
-    .main-pg-title-title {
-        font-size: 30px;
+        height: 250px;
     }
 
     .main-pg-title-title-container {
+        font-size: 30px;
         width: 100%;
-        height: 40%;
+    }
+
+    .main-photo-gallery-title-container {
+        width: 100%;
+        height: auto;
     }
 
     .main-photo-gallery-title {
         flex-direction: column;
-        height: 500px;
+        width: 100%;
     }
 
 

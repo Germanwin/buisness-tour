@@ -5,9 +5,12 @@ import thirdPic from '../blocks-components/photo-gallery-block-components/third-
 </script>
 
 <template>
-    <div class="photo-gallery-block-container">
-        <mainPhotoGalleryTitle />
-        <thirdPic />
-        <rightColumnContainer />
+    <div class="photo-gallery-block">
+        <div class="photo-gallery-block-container">
+            <mainPhotoGalleryTitle />
+            <thirdPic />
+            <rightColumnContainer />
+        </div>
     </div>
+
 </template>

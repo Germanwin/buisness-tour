@@ -1,12 +1,12 @@
 /* title-block styling */
 
 .title-block-container {
-  padding: 6%;
+  padding: 60px;
   display: flex;
   flex-direction: column;
   justify-content: end;
   max-width: 100%;
-  height: 100dvh;
+  height: 100vh;
   background-image: url('@/assets/main-view-pics/title-block-pics/main-pic.jpg');
   background-size: cover;
   overflow-x: hidden;
