@@ -7,7 +7,7 @@ const cors = require('cors');
 
 const nodemailer = require('nodemailer')
 
-const port = 80
+const port = 8066
 
 app.use(cors({
   origin: 'http://localhost:5173', // Разрешаем запросы только с вашего фронтенда
