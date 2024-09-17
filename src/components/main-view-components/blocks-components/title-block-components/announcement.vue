@@ -7,6 +7,10 @@ export default {
         AnnouncementGreenCircle
     },
     props: {
+        To: {
+            type: String,
+            required: true,
+        },
         title: {
             type: String,
             required: true,
@@ -21,13 +25,15 @@ export default {
 
 <template>
     <div class="announcement">
-        <div class="announcement-icon-container">
-            <AnnouncementGreenCircle />
-        </div>
 
-        <div class="announcement-text">
-            <h1>{{ title }}</h1>
-            <p>{{ date }}</p>
-        </div>
+        <RouterLink :to="To" ></RouterLink>
+            <div class="announcement-icon-container">
+                <AnnouncementGreenCircle />
+            </div>
+            <div class="announcement-text">
+                <h1>{{ title }}</h1>
+                <p>{{ date }}</p>
+            </div>
+
     </div>
 </template>

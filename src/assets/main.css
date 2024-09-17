@@ -1,6 +1,7 @@
 @import './base.css';
 @import './css/main-view.css';
 @import './css/layout.css';
+@import "./css/tour-view.css";
 
 * {
   margin: 0;

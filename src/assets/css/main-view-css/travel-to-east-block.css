@@ -66,9 +66,9 @@
 }
 
 .lc-text-block-container a {
-    width:80px;
     text-decoration: none;
     color: #a68053;
+    padding-bottom: 4px;
     border-bottom: #a68053 2px solid;
 }
 

@@ -6,6 +6,6 @@ import NavbarTitle from './navbar-start-block/navbar-title.vue';
 <template>
     <div class="navbar-start-block">
         <NavbarTitle />
-        <NavBarOption title="Наши туры" path="#" />
+        <!-- <NavBarOption title="Наши туры" path="#" /> -->
     </div>
 </template>

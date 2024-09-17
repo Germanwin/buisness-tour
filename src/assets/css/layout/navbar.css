@@ -33,7 +33,10 @@
   width: 40px;
 }
 
-
+.navbar-title a {
+  color: black;
+  text-decoration: none;
+}
 
 .navbar-title h1 {
   font-weight: 900;
