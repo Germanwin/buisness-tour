@@ -1,6 +1,7 @@
 .tour-title-block {
-    padding: 100px;
+    padding: 60px;
     height: 80vh;
+    width: 100%;
     background-image: var(--bg-image);
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,4 +36,15 @@
     font-size: 30px;
     font-style: italic;
     font-weight: 100;
+}
+
+@media only screen and (max-width: 700px) {
+    .tour-title-block {
+        padding: 40px 0;
+        align-items: center;
+    }
+
+    .tour-title-block .main-title {
+        width: 80%;
+    }
 }
