@@ -1,0 +1,59 @@
+/* previous-tours-block styling */
+
+.previous-tours-block {
+  @apply flex flex-col items-center p-[60px] max-w-full bg-[#d9d9d9] box-content;
+
+  .previous-tours-title {
+    @apply font-ptsans font-bold text-[72px] mb-[30px] text-center text-[#616157];
+  }
+
+  .prev-tours-cards-container {
+    @apply w-full max-w-[1200px] h-[500px];
+
+    .previous-tours-container {
+      @apply max-h-full flex flex-row max-w-[300%] gap-[20px];
+
+      .previous-tour-card {
+        @apply flex flex-col items-center bg-white w-full p-[20px] relative;
+
+        h2 {
+          @apply opacity-60 mb-[25px] text-[30px] font-bold;
+        }
+        a {
+          @apply absolute top-0 w-full h-full;
+        }
+        img {
+          @apply object-cover w-full h-[65%] mb-[10px];
+        }
+        h3 {
+          @apply text-[18px] opacity-30 font-semibold font-rob;
+        }
+        h1 {
+          @apply font-rob-con text-black text-[30px] font-bold;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .previous-tour-card {
+    width: 280px;
+  }
+
+  .previous-tours-container {
+    width: max-content;
+  }
+
+  .prev-tours-cards-container {
+    overflow-x: scroll;
+  }
+
+  .previous-tours-title {
+    font-size: 42px;
+  }
+
+  .previous-tour-card-title {
+    font-size: 23px;
+  }
+}

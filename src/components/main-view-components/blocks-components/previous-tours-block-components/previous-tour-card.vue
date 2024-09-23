@@ -32,7 +32,7 @@ export default {
     <div class="previous-tour-card">
         <h2>{{ Status }}</h2>
         <img alt="yes" :src="imgPath">
-        <h1 class="previous-tour-card-date">{{ Date }}</h1>
+        <h3 class="previous-tour-card-date">{{ Date }}</h3>
         <h1 class="previous-tour-card-title">{{ Title }}</h1>
         <RouterLink :to="`/tour/${To}`"></RouterLink>
     </div>

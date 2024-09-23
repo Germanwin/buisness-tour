@@ -20,7 +20,7 @@
 
 .main-title-container {
   z-index: 5;
-  width: 500px;
+  width: 600px;
 
   border: 5px white solid;
   padding: 40px;
@@ -97,17 +97,10 @@
 }
 
 .announcement-text {
-  width: 83%;
-}
+  @apply w-[83%];
 
-.announcement-text h1 {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
-}
-
-.announcement-text p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
+  h1 {@apply font-rob-con text-[20px] font-extrabold }
+  p {@apply font-rob text-base font-medium}
 }
 
 @media only screen and (max-width: 730px) {
@@ -130,5 +123,9 @@
     left: 0;
     margin-left: 30px;
     margin-right: 0;
+    margin-top: 220px;
+  }
+  .title-block-container {
+    @apply p-8;
   }
 }

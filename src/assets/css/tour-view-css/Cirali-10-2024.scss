@@ -1,0 +1,90 @@
+@mixin bg-block {
+  @apply bg-no-repeat bg-cover border-none text-white;
+}
+
+.cirali-10-2024 {
+  @apply p-16 flex flex-col gap-y-16 items-center;
+  background-color: rgb(236, 195, 83);
+
+  h1 {
+    @apply w-full text-center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto condensed', sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .blocks {
+    @apply grid grid-cols-2 max-w-[700px] gap-8 font-bold;
+    color: rgb(173, 102, 36);
+
+    .block {
+      @apply p-6 border-2 border-[white] rounded-2xl text-center flex flex-col justify-center min-h-40;
+    }
+    .supboard {
+      @include bg-block;
+      background-image: url('@/assets/tour-view-pics/supboard.jpg');
+      color: black;
+    }
+    .bonfire {
+      @include bg-block;
+      background-image: url('@/assets/tour-view-pics/bonfire-rock.jpg');
+    }
+
+    .olimpos {
+      @include bg-block;
+      background-image: url('@/assets/tour-view-pics/olimpos.jpg');
+      color: rgb(252, 171, 95);
+    }
+
+    .dark {
+      background-color: rgb(255, 241, 196);
+      border: none;
+    }
+
+    .lycian-way {
+      @include bg-block;
+      background-image: url('@/assets/tour-view-pics/lycian-way.jpg');
+    }
+    .yacht {
+      @include bg-block;
+      background-image: url('@/assets/tour-view-pics/yacht.jpg');
+    }
+
+    .full {
+      grid-column: 1 / 3;
+    }
+
+    p {
+      font-size: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cirali-10-2024 {
+    .blocks {
+      @apply flex flex-col items-center;
+      .block {
+        @apply w-3/4;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .cirali-10-2024 {
+    .blocks {
+      @apply w-full;
+      .block {
+        @apply w-full;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .cirali-10-2024 {
+    @apply p-6;
+  }
+}

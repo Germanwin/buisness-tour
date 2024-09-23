@@ -17,31 +17,31 @@ const router = createRouter({
       name: 'tour',
       component: TourView,
       beforeEnter: (to, from, next) => {
-        const tourId = Array.isArray(to.params.id) ? to.params.id[0] : to.params.id as string;
+        const tourId = Array.isArray(to.params.id) ? to.params.id[0] : (to.params.id as string)
 
         // Проверяем, если ID тура допустимо, то продолжаем, иначе перенаправляем на главную
         if (allowedTourIds.includes(tourId)) {
-          next(); // Переход разрешен
+          next() // Переход разрешен
         } else {
-          next('/'); // Перенаправляем на главную
+          next('/') // Перенаправляем на главную
         }
       }
     },
     {
       path: '/:pathMatch(.*)*',
       redirect: '/' // Перенаправляем любые несуществующие маршруты на главную
-    }
+    },
   ],
   // Добавляем поведение прокрутки
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       // Если есть сохранённая позиция (например, после нажатия "Назад"), восстанавливаем её
-      return savedPosition;
+      return savedPosition
     } else {
       // По умолчанию прокручиваем страницу в самое начало
-      return { top: 0 };
+      return { top: 0 }
     }
   }
-});
+})
 
 export default router;
